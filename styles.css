@@ -1,0 +1,112 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+	body{
+		margin: auto;
+	}
+
+	header {
+		color: gray;
+		padding: 0px 10px 10px 10px;
+		font-family: 'Roboto', sans-serif;
+		font-size: 20px;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+	nav {
+		text-align: center;
+		padding: 5px;
+		font-family: 'Roboto', sans-serif;
+	}
+
+	h1 {
+		text-indent: 10px;
+		padding-top: 10px;
+		font-family: 'Roboto', sans-serif;
+	}
+	h2{
+		font-family: 'Roboto', sans-serif;
+
+	}
+
+	nav ul {
+		margin: 0px;
+		padding: 5px 0px 5px 30px;
+	}
+
+	nav li {
+		display: inline;
+		margin-right: 50px;
+	}
+
+	li:hover{
+		text-decoration: underline;
+	}
+
+	a {
+		text-decoration: none;
+		color: inherit;
+	}
+	p{
+	}
+
+	.socialMedia{
+		position: absolute;
+		right: 50px;
+	}
+	.socialIcon{
+		font-size: 45px;
+	}
+
+	.socialIcon:hover{
+		color: black;
+	}
+
+	.myCard{
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		padding-left: 70px;
+		padding-bottom: 75px;
+
+	}
+	.profPic{
+		border-radius: 50%;
+	}
+	.cardInfo{
+		padding-left: 70px;
+	}
+
+	.biography{
+		padding-left: 70px;
+		padding-right: 70px;
+		text-align: justify;
+	}
+	.resume{
+		margin: 0 auto 50px auto;
+		text-align: left;
+		padding-left: 70px;
+	}
+
+	.designImg{
+
+	}
+	.designImg{
+		display: block;
+		width: 50%;
+		height: auto;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	
+</style>
+
+
+
