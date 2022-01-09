@@ -105,6 +105,21 @@
 		margin-right: auto;
 	}
 
+	.container{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin: 30px;
+	}
+	.thumbnailDesc{
+		padding-left: 20px;
+		width: 30vw;
+	}
+
+	.thumbnail{
+		width: 20vw;
+		height: auto;
+	}
 	
 </style>
 
