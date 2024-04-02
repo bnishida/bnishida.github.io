@@ -72,9 +72,9 @@
 
 	h1 {
 		text-indent: 10px;
-		padding-top: 10px;
 		font-family: 'Roboto', sans-serif;
 	}
+	
 	h2{
 		font-family: 'Roboto', sans-serif;
 
@@ -84,7 +84,6 @@
 		margin: 0px;
 		padding: 5px 0px 5px 30px;
 		display: flex;
-
 	}
 
 	nav li {
@@ -103,6 +102,7 @@
 		text-decoration: none;
 		color: inherit;
 	}
+
 	p{
 		text-align: justify;
 		padding-right: 70px;
@@ -112,6 +112,7 @@
 		display: flex;
 		align-items: center;
 	}
+
 	.socialIcon{
 		font-size: 45px;
 		margin-right: 15px;
@@ -135,6 +136,7 @@
 		width: auto;
 		border-radius: 50%;
 	}
+	
 	.cardInfo{
 		padding-left: 70px;
 	}
