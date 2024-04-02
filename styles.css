@@ -10,6 +10,13 @@
 		margin: auto;
 	}
 
+	.header-container {
+	  display: flex;
+	  justify-content: space-between;
+	  align-items: center;
+	  padding: 10px;
+	}
+
 	header {
 		color: gray;
 		padding: 0px 10px 10px 10px;
@@ -19,25 +26,52 @@
 		flex-direction: row;
 		align-items: center;
 	}
+
 	nav {
 		text-align: center;
 		padding: 5px;
 		font-family: 'Roboto', sans-serif;
+		margin-left: auto;
 	}
+
 	nav a {
 		position: relative;
 	}
 
+	nav a::before {
+		content: "";
+		position: absolute;
+		display: block;
+		width: 100%;
+		height: 2px;
+		bottom: 0;
+		left: 0;
+		background-color: #000;
+		
+		/* creates animated underline*/
+		transform: scaleX(0);
+		transition: transform 0.3s ease;
+	}
+
+		nav a:hover::before { /* creates animated underline*/
+		transform: scaleX(1);
+	}
+
 	nav a:hover::after {
-			content: "";
-			position: absolute;
-			top: -5px;
-			left: -5px;
-			width: calc(100% + 10px);
-			height: calc(100% + 10px);
-			background-color: rgba(0, 0, 0, 0.1);
-			z-index: 1;
-			border-radius: 10px;    }
+		content: "";
+		position: absolute;
+		top: -5px;
+		left: -5px;
+		width: calc(100% + 10px);
+		height: calc(100% + 10px);
+		background-color: rgba(0, 0, 0, 0.1);
+		z-index: 1;
+		border-radius: 10px;
+
+
+
+
+	}
 
 	h1 {
 		text-indent: 10px;
@@ -52,6 +86,8 @@
 	nav ul {
 		margin: 0px;
 		padding: 5px 0px 5px 30px;
+		display: flex;
+
 	}
 
 	nav li {
@@ -76,15 +112,17 @@
 	}
 
 	.socialMedia{
-		position: absolute;
-		right: 50px;
+		display: flex;
+		align-items: center;
 	}
 	.socialIcon{
 		font-size: 45px;
+		margin-right: 15px;
 	}
 
 	.socialIcon:hover{
 		color: black;
+
 	}
 
 	.myCard{
