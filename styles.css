@@ -57,6 +57,9 @@
 	nav li {
 		display: inline;
 		margin-right: 50px;
+		font-weight: bold;
+		color: gray;
+
 	}
 
 	li:hover{
@@ -68,6 +71,8 @@
 		color: inherit;
 	}
 	p{
+		text-align: justify;
+		padding-right: 70px;
 	}
 
 	.socialMedia{
