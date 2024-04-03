@@ -108,6 +108,17 @@
 		padding-right: 70px;
 	}
 
+	hr {
+		border: none;
+		margin:  0;
+    	padding: 0;
+		height: 3px;
+		/* Set the hr color */
+		color: #333;  /* old IE */
+		background-color: #333;  /* Modern Browsers */	
+		
+	}
+
 	.socialMedia{
 		display: flex;
 		align-items: center;
